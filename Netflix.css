@@ -1,0 +1,346 @@
+            /*   Universal Css     */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins','sans-serif';
+}
+body{
+    background: #000;
+    color: #fff;
+}
+            /*  header-content  */
+.front-page{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding:10px 8%;
+    position: relative;
+
+}
+
+        /*   NavBar    */
+
+.navbar{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button{
+    border: 0;
+    outline: 0;
+    height: 32px;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language-btn{
+    width: 110px;
+    font-size: 0.9rem;
+    font-weight:100;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1c1c1c;
+    border: 0.5px solid white;
+    padding: 7px 10px;
+}
+.nav-btn{
+    display: flex;
+    align-items: center;
+}
+
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+
+            /*   Middle Text    */
+
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 800px;
+}
+.header-content h3{
+    margin-top:  10px; ;
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.header-content p{
+    margin-top: 30px;
+    font-size: 1.38rem;
+    font-weight: 100;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.form-div input{
+    height: 58px;
+    width: 45%;
+   
+    border-radius: 4px;
+    background: transparent;
+    border: 0.5px solid white;
+    
+}
+.form-div button{
+    margin-left: 15px;
+    height: 60px;
+    font-family: inherit;
+    background: #db0001;
+    color: white;
+    width: 22%;
+    outline: 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 23px;
+    cursor:pointer;
+}
+.email-address[placeholder]{
+    font-size: 18px;
+    
+    padding-left: 20px;
+    color: white;
+}
+
+                /*   Second Page     */
+
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 590px;
+    border-top:8px solid #242222;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+   
+}
+.text-column{
+    width: 530px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center;
+}
+
+.text-column h1{
+    height: 65px;
+    font-size: 48px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.2;
+    width: 100%;
+    font-weight: 900;
+}
+.text-column h2{
+    height: 65px;
+    font-size: 1.7rem;
+    line-height: 1.3;
+    font-weight: lighter;
+}
+
+.explore h2{
+   
+    height: 100px;
+}
+.download-section h1{
+    height: 120px;
+    width: 100%;
+}
+.children h1{
+    width: 85%;
+    height: 120px;   
+}
+.children h2{
+    width: 95%;
+    height: 100px;
+}
+
+.image-column{
+    width: 530px;
+    height: 400px;
+    
+}
+.image-1{
+    background-image: url(feature-1.png);
+    background-size: cover;
+}
+.image-2{
+    background-image: url(feature-2.png);
+    background-size: cover;
+}
+.image-3{
+    background-image: url(feature-3.png);
+    background-size: cover;
+}
+.image-4{
+    background-image: url(feature-4.png);
+    background-size: cover;
+}
+
+                      /* Frequent Questions Section */
+
+.frequent-questions{
+    width: 100%;
+    height: 1100px;
+    border-top:8px solid #242222;
+    display: flex;
+    flex-direction: column;
+}
+.questions{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    top: 60px;
+}
+.questions h1{
+    margin-bottom: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-family: 'Nunito', sans-serif;
+}
+.questions h2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+   
+}
+
+.question-block{
+    margin-top: 10px;
+    width: 78%;
+    height: 85px;
+    background-color: rgba(70, 67, 67, 0.7);
+    margin-top: 12px;
+    cursor: pointer;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+.question-block:hover{
+    background-color: 	#474747;
+}
+.question-block span{
+    font-size: 50px;
+    font-weight: lighter;
+    margin-right: 20px;
+}
+.membership{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.membership p{
+    margin-top: 30px;
+    font-size: 1.38rem;
+    font-weight: 100;
+}
+.membership-form{
+    width: 50%;
+}
+.footer-section{
+    border-top:8px solid #242222;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer-content{
+    width: 100%;
+    height: 100%;
+    margin: 70px 0 0 300px;
+}
+.footer-section a{
+    color: rgb(214, 222, 220);
+}
+.first-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.link-section{
+    margin-top: 15px;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.link-section a{
+    width: 25%;
+    font-size: 16px;
+    font-weight: lighter;
+    
+}
+.footer-section button{
+    border: 0.5px solid white;
+    outline: 0;
+    height: 32px;
+    background: #1c1c1c;
+    color: #fff;
+    padding: 7px 20px;
+    margin-top: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 110px;
+    font-size: 0.9rem;
+    font-weight:100;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.5px solid white;
+    padding: 7px 10px;
+}
+.footer-nav{
+    align-self: flex-start;
+}
+#india-netflix{
+    font-size: 16px;
+    margin-top: 20px;
+}
